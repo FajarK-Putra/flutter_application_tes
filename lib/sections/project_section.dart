@@ -98,7 +98,7 @@ class _ProjectSectionState extends State<ProjectSection>
       'assets/tech/go.png',
     ],
     liveUrl: 'https://sawitkita.org/',
-    githubUrl: 'https://github.com/edy2209/SAWIT-KTA',
+    githubUrl: '',
   ),
   ProjectModel(
     imageUrl: '/assets/img/manajemenaset.png',
@@ -110,6 +110,51 @@ class _ProjectSectionState extends State<ProjectSection>
     ],
     liveUrl: 'https://www.figma.com/proto/YQphQ5LiFK66jODPhNY5uO/Project-RPL?node-id=214-1028&t=zNFoWikgxtsDyJA4-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A130',
     githubUrl: '',
+  ),
+  ProjectModel(
+    imageUrl: '/assets/img/sistemdeteksi.png',
+    title: 'Sistem Pendeteksi Wajah Menggunakan Python dan OpenCV',
+    description:
+        'Deteksi dan pengenalan wajah telah menjadi bagian penting dari berbagai aplikasi keamanan, autentikasi, dan sistem cerdas lainnya. Dalam era digital saat ini, kebutuhan terhadap sistem identifikasi yang akurat dan otomatis menjadi sangat krusial. Salah satu cara efisien untuk mengenali identitas seseorang adalah dengan teknologi pengenalan wajah.',
+    techLogos: [
+      'assets/tech/python.png',
+    ],
+    liveUrl: '',
+    githubUrl: 'https://github.com/FajarK-Putra/SISTEM-PENDETEKSI-WAJAH-MENGGUNAKAN-PYTHON-DAN-OPENCV',
+  ),
+
+  ProjectModel(
+    imageUrl: '/assets/img/regresi.png',
+    title: 'Prediksi Harga Smartphone Menggunakan Xgboost Regressor',
+    description:
+        'Prediksi harga smartphone adalah proses penting dalam industri teknologi untuk membantu konsumen membuat keputusan pembelian yang lebih baik. Dengan banyaknya pilihan smartphone yang tersedia, penting untuk memiliki alat yang dapat memberikan perkiraan harga berdasarkan berbagai fitur dan spesifikasi.',
+    techLogos: [
+      'assets/tech/python.png',
+    ],
+    liveUrl: '',
+    githubUrl: 'https://github.com/FajarK-Putra/PREDIKSI-HARGA-SMARTPHONE-MENGGUNAKAN-XGBOOST-REGRESSOR',
+  ),
+  ProjectModel(
+    imageUrl: '/assets/img/klasifikasi.png',
+    title: 'Klasifikasi Penyakit Jantung Menggunakan Random Forest Classifier',
+    description:
+        'Klasifikasi penyakit jantung adalah proses penting dalam bidang kesehatan untuk mengidentifikasi risiko penyakit jantung pada individu berdasarkan data medis. Proyek ini bertujuan untuk mengembangkan model klasifikasi yang dapat membantu dalam mendeteksi kemungkinan adanya penyakit jantung pada pasien.',
+    techLogos: [
+      'assets/tech/python.png',
+    ],
+    liveUrl: '',
+    githubUrl: 'https://github.com/FajarK-Putra/KLASIFIKASI-PENYAKIT-JANTUNG-MENGGUNAKAN-RANDOM-FOREST-CLASSIFIER',
+  ),
+  ProjectModel(
+    imageUrl: '/assets/img/clustering.png',
+    title: 'Segmentasi Pelanggan Menggunakan Algoritma K-Means Clustering Pada Dataset Transaksi Retail',
+    description:
+        'Segmentasi pelanggan adalah proses mengelompokkan pelanggan ke dalam kelompok-kelompok yang memiliki karakteristik serupa. Tujuan dari segmentasi ini adalah untuk memahami perilaku pelanggan, preferensi, dan kebutuhan mereka, sehingga perusahaan dapat menyesuaikan strategi pemasaran dan layanan yang lebih efektif.',
+    techLogos: [
+      'assets/tech/python.png',
+    ],
+    liveUrl: '',
+    githubUrl: 'https://github.com/FajarK-Putra/SEGMENTASI-PELANGGAN-MENGGUNAKAN-ALGORITMA-K-MEANS-CLUSTERING-PADA-DATASET-TRANSAKSI-RETAIL',
   ),
     ];
 

@@ -37,6 +37,10 @@ flutter:
     - assets/img/proyekcafe.png
     - assets/img/sawitkita.png
     - assets/img/manajemenaset.png
+    - assets/img/sistemdeteksi.png
+    - assets/img/klasifikasi.png
+    - assets/img/regresi.png
+    - assets/img/clustering.png
 
     - assets/tech/bootstrap.png
     - assets/tech/css3.png
